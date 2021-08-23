@@ -1,3 +1,10 @@
+echo 1. Directory contents
+ls -a
+
+echo 2. Take hash of file.h
+SHA1_COMMIT=sha1sum {file.h}
+
+
 echo 1. What is in this directory?
 ls -a
 echo
