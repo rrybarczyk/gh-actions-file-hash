@@ -1,5 +1,6 @@
 set -e
 cargo install cbindgen --force bts
+
 SHA1_1=$(sha1sum file.h)
 
 BUILD_SCRIPT="./build-header.sh"
