@@ -27,3 +27,8 @@ jobs:
         run: |
           echo Here is what is in the folder
           ls -a
+
+      - name: Run equality check
+        run: |
+          echo Running equality check on header file
+          sh ./equality.sh
