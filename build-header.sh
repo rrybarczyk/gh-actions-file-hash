@@ -1,1 +1,1 @@
-echo "main file" > file.h
+echo "file" > file.h
