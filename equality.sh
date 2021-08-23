@@ -2,7 +2,7 @@
 SHA1_1=$(sha1sum file.h)
 
 BUILD_SCRIPT="./build-header.sh"
-source "$BUILD_SCRIPT"
+sh ./"$BUILD_SCRIPT"
 
 SHA1_2=$(sha1sum file.h)
 
