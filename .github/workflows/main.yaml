@@ -25,4 +25,4 @@ jobs:
       - name: Run equality check
         run: |
           echo Running equality check on header file
-          sh ./equality.sh
+          sh ./.github/workflows/equality.sh
