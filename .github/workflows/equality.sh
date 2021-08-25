@@ -2,7 +2,7 @@ set -e
 # cargo install cbindgen --force bts
 # cbindgen -V
 
-cd ../../src
+cd ./src
 SHA1_1=$(sha1sum file.h)
 cd ..
 BUILD_SCRIPT="./build-header.sh"
